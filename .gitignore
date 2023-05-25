@@ -1,0 +1,7 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+# System
+Thumbs.db
+.DS_Store
