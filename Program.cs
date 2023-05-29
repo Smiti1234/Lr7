@@ -52,6 +52,11 @@ class Program
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Результат возведения числа в степень = {0}", Math.Pow(a, b));
         }
+        if (q == "6")
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Результат возведения числа под корень = {0}", Math.Pow(a, 1 / b));
+        }
         Console.ReadKey();
     }
 }
